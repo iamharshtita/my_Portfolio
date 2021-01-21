@@ -1,0 +1,169 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    margin: 50px auto 0px auto;
+    /* position: relative;
+    top: 23px; */
+    font-family: 'Sacramento', cursive;
+    /* 16px=100%=1em */
+    /* rem ka value is same as em but rem does not add the size from body but displays its own value */
+    font-size: 5.625rem;
+    color:  #66BFBF;
+
+}
+.underline{
+    text-decoration: underline;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:  #66BFBF;
+    font-weight: normal;
+    margin: 20px;
+}
+
+.h2{
+    
+    line-height: 2;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+
+}
+.container1 {
+background-color: #beebe9;
+padding: 80px;
+}
+/* .container2{
+    background-color: rebeccapurple;
+   width: 200px;
+   height: 200px;
+   
+}
+.container3{
+    background-color: rgb(219, 190, 25);
+    width: 200px;
+    height: 200px;
+   
+} */
+/* 
+.proimg{
+    position: relative;
+    top: 16px;
+    border-radius: 20%;
+} */
+
+.bottomcloud{
+    position: absolute;
+    left: 345px;
+}
+ 
+   
+
+.topcloud{
+    position: absolute;
+    /* left: 220px; */
+    top: 54px;
+    right: 358px;
+}
+/* .para{
+    position: relative;
+    top: 5px;
+    font-size: 2.5rem;
+} */
+a{
+    color: #11999E;
+}
+
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skillimage1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.skillimage2{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+/* .skilldescription1{
+    clear: left;
+}
+.skilldescription2{
+    clear: right;
+} */
+
+.description{
+    width: 44%;
+    margin: 20px auto 20px auto;
+}
+.hr{
+        /* border-style: dotted; */
+    /* border-top: none; */
+    margin: 50px auto 50px auto;
+    width: 15%;
+    height: 0px;
+    border-top: 23px dotted #EAF6F6;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.contact{
+    width: 30%;
+    margin: 52px auto 19px auto;
+    line-height: 25px;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #11999E;
+    color: whitesmoke;
+}
+.btn:hover{
+    background-color: rgb(183, 248, 248);
+    color:#11999E ;
+}
+.bottom-container{
+    position: relative;
+    top: 80px;
+    padding: 0px;
+    background-color: #323232;
+    height: 186px;
+}
+.footer-link{
+    text-decoration: none;
+    /* padding: 0px 80px; */
+    margin: 75px;
+    padding: 0px 25px;
+    color: rgb(90, 236, 188);
+}
+.copyright{
+    color:rgb(90, 236, 188);
+    margin: 106px auto 0px auto;
+}
+
+.proimg{
+    width: 25%;
+    margin-top: 25px;
+}
+
+.footer-link:hover{
+    background-color:rgb(90, 236, 188); ;
+    color:#323232 ;
+}
